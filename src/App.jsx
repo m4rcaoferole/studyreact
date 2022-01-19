@@ -1,5 +1,5 @@
-export function App() {
-  throw new Error("Danger!");
+import "./styles/global.scss";
 
+export function App() {
   return <h1> Fala devs </h1>;
 }
