@@ -1,6 +1,6 @@
-import React from "react";
+import { RepositoryItemProps } from "./RepositoryProps";
 
-export const RepositoryItem = (props) => {
+export const RepositoryItem = (props: RepositoryItemProps) => {
   return (
     <li>
       <strong>{props.repository.name}</strong>
