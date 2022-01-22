@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], // Adiciona funcionalidade com typagem
+    "jsx": "react-jsx", // Escrever HTML dentro do Javascript
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true, // Transição de aplicação de Javascript para Typescript 
+    "noEmit": true, // Emitir código do build
+    "isolatedModules": true, // Adiciona a possibilidade de importar arquivos JSON       
+    "allowSyntheticDefaultImports": true,                
+    "esModuleInterop": true, 
+    "forceConsistentCasingInFileNames": true,   
+    "strict": true, // Modo de lidar com erros dentro do Javascript
+    "skipLibCheck": true                                 
+  },
+  "include":["src"] // Especifica onde todo o código vai estar
+}
